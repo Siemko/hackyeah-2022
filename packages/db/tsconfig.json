@@ -1,0 +1,4 @@
+{
+  "extends": "tsconfig/node-library.json",
+  "include": ["index.ts"]
+}

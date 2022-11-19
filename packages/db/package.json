@@ -1,0 +1,21 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push --skip-generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "prisma": "^4.6.1",
+    "tsconfig": "workspace:*"
+  }
+}
